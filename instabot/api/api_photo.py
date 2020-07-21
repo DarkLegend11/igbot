@@ -149,6 +149,7 @@ def upload_photo(
         return False
     if not compatible_aspect_ratio(get_image_size(photo)):
         self.logger.error("Photo does not have a compatible photo aspect ratio.")
+        return "size_error"
         if force_resize:
             photo = resize_image(photo)
         else:
