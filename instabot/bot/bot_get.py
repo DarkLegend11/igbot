@@ -498,7 +498,7 @@ def get_pending_follow_requests(self):
     if self.api.last_json.get("users"):
         return self.api.last_json.get("users")
     else:
-        self.logger.info("There isn't any pending request.")
+        #self.logger.info("There isn't any pending request.")
         return []
 
 
