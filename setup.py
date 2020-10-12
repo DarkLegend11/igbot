@@ -10,7 +10,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="instabot",
+    name="my_igbot",
     version="0.117.0",
     description="Instagram bot scripts for promotion and API python wrapper.",
     long_description=long_description,
